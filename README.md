@@ -3,6 +3,7 @@ cybergarage-upnp
 
 Following is an example how you would use this project to forward ports on a router that supports UPnP
 
+```java
     public class UPnPForwarder implements ForwardPortCallback {
     
         private final UPnP upnp;
@@ -27,4 +28,4 @@ Following is an example how you would use this project to forward ports on a rou
             // the status of the ports will be received in this callback
         }
     }
-
+```
